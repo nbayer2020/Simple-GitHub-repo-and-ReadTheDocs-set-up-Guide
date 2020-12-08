@@ -85,6 +85,8 @@ html_theme = 'alabaster'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = []
 
+# Add TROPOS Logo for the HTML page. 
+html_logo = './images/TROPOS-Logo_ENG.png'
 
 # -- Options for LaTeX output ------------------------------------------------
 
