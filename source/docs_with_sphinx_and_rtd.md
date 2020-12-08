@@ -122,6 +122,8 @@ m2r==0.2.1
 
 Also add the **packeges names==version** that your document requires.
 
+**It might be that you should change the version of some of the packeges**
+
 6. Create the readthedocs.yml like:
 
 ```
@@ -156,7 +158,7 @@ python:
 
 See: [https://docs.readthedocs.io/en/stable/config-file/index.html](https://docs.readthedocs.io/en/stable/config-file/index.html)
 
-Now just click on Create and wait.
+7. Now just click on **Build version** and wait.
 
 
 
