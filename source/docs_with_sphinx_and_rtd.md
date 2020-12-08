@@ -83,6 +83,7 @@ On Ubuntu xenial, the following packages need to be installed for successful PDF
 * latexmk (this is a Sphinx requirement on GNU/Linux and MacOS X for functioning of make latexpdf)
 
 See: [https://www.sphinx-doc.org/en/master/usage/builders/index.html#sphinx.builders.latex.LaTeXBuilder](https://www.sphinx-doc.org/en/master/usage/builders/index.html#sphinx.builders.latex.LaTeXBuilder)
+
 On CentOs7 you will have to install the latex-packeges manually
 
 4. Read the Docs configuration
