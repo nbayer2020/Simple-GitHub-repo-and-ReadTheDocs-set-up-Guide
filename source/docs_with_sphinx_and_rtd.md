@@ -1,6 +1,6 @@
-# Generating docs with sphinx and RtD
+# Generating docs with Sphinx and RtD
 
-## Local sphinx generator
+## Local Sphinx generator
 
 Install sphinx using pip and navigate yourself into git directory. Create docs folder there and go inside. Run:
 
@@ -67,7 +67,7 @@ autodoc_mock_imports = ["tropy"]
 exclude_patterns = []
 ```
 
-## Produce Documents
+## Produce Documents locally
 Now just run:
 
 ```make html```  or ```make latexpdf```
@@ -84,7 +84,7 @@ See: [https://www.sphinx-doc.org/en/master/usage/builders/index.html#sphinx.buil
 
 On CentOs7 you will have to install the latex-packeges manually
 
-## Read the Docs configuration
+## ReadtheDocs configuration
 
 Go to the ReadTheDocs and create an account there. [https://readthedocs.org/](https://readthedocs.org/)
 
@@ -156,7 +156,9 @@ python:
 
 See: [https://docs.readthedocs.io/en/stable/config-file/index.html](https://docs.readthedocs.io/en/stable/config-file/index.html)
 
-## Now just click on **Build version** and wait.
+## Last Step 
+
+Now just click on **Build version** and wait.
 
 
 
