@@ -23,11 +23,9 @@ After all thie files are in your repository go to [https://readthedocs.org/](htt
 
 Then go to **import Manually**:
 
-
-|name:            |set a Project name                           |
-|repository URL:  |https://github.com/USER_NAME/REPOSITORY_NAME |
-|repository type: |Git                                          |
-
+* name:            set a Project name                           
+* repository URL:  https://github.com/USER_NAME/REPOSITORY_NAME 
+* repository type: Git                                          
 
 ## verificate if it works
 After your Project was imported try **Build version**
