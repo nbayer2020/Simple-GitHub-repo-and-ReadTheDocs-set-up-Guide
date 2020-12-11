@@ -17,6 +17,8 @@ Files you need to have in your repository, in order to create a Documenent with 
 
 All this files should be copied from [https://github.com/nbayer2020/ReadtheDocs-files](https://github.com/nbayer2020/ReadtheDocs-files)
 
+## Create an account in ReadtheDocs 
+
 After all thie files are in your repository go to [https://readthedocs.org/](https://readthedocs.org/) and create an acount and import your repository in **Import  a Project**.
 
 Then go to **import Manually**:
@@ -27,4 +29,5 @@ Then go to **import Manually**:
 |repository type: |Git                                          |
 
 
+## verificate if it works
 After your Project was imported try **Build version**
