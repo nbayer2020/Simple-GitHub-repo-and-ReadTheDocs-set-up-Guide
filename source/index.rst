@@ -11,8 +11,9 @@ Documentation Guide
    :caption: Contents:
 
    first_steps
-   docs_with_sphinx_and_rtd
    read_the_docs
+   docs_with_sphinx_and_rtd
+   
 
 Indices and tables
 ==================
