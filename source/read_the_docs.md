@@ -15,7 +15,7 @@ Files you need to have in your repository, in order to create a Documenent with 
 * source/index.rst
 * source/images/
 
-All this files should be copied from [https://github.com/nbayer2020/ReadtheDocs-files](https://github.com/nbayer2020/ReadtheDocs-files)
+All this files should be copied from this [Repository](https://github.com/nbayer2020/ReadtheDocs-files)
 
 ## Create an account in ReadtheDocs 
 
@@ -29,3 +29,5 @@ Then go to **import Manually**:
 
 ## verificate if it works
 After your Project was imported try **Build version**
+
+To create documents with ReadtheDocs installing Sphinx go to [next](https://simple-github-repo-and-readthedocs-set-up-guide.readthedocs.io/en/latest/docs_with_sphinx_and_rtd.html).
