@@ -20,18 +20,14 @@ _static          # The directory for static files, including custom stylesheets,
 _templates       # The directory for custom templates
 ```
 
-2. Add your source **.rst** or **.md** files into some directory inside docs, for example source. Now edit index.rst and add there source/filenames.rst. In my case:
+2. Add your source **.rst** or **.md** files into source directory inside, for example source. Now edit **index.rst** and add there **filenames.rst**. In my case:
 
 ```rst
 .. toctree::
    :maxdepth: 3
 
-   source/intro
-   source/nec_know
-   source/domains_ip_servers
-   source/ndg
-   source/Arch
-   source/RPi
+   path/filename-1
+   path/filename-2
 ```
 
 If you will use **.md** files, you need to instal python package m2rr with:
@@ -88,9 +84,9 @@ On CentOs7 you will have to install the latex-packeges manually
 
 4. Read the Docs configuration
 
-Go to the ReadTheDocs and create an account there.
+Go to the ReadTheDocs and create an account there. [https://readthedocs.org/](https://readthedocs.org/)
 
-Click on the dasboard and then on **import**. Name your project and add your git url inside **Repo**. In my case it’s:
+Click on the dasboard and then on **Import A Project**. Name your project and add your git url inside **Repo**. In this example it’s:
 
 ```
 https://github.com/USER_NAME/REPOSITORY_NAME
@@ -98,7 +94,7 @@ https://github.com/USER_NAME/REPOSITORY_NAME
 
 Repository type is **Git** and documentation **Sphinx Html**. Rest is basicaly optional. 
 
-5. Create the requirements.txt like:
+5. Create the **requirements.txt** like:
 
 ``` 
 # docs/requirements.txt
@@ -124,7 +120,7 @@ Also add the **packeges names==version** that your document requires.
 
 **It might be that you should change the version of some of the packeges**
 
-6. Create the readthedocs.yml like:
+6. Create the **readthedocs.yml** like:
 
 ```
 # readthedocs.yml
