@@ -1,6 +1,6 @@
 # Generating docs with sphinx and RtD
 
-1. Local sphinx generator
+## Local sphinx generator
 
 Install sphinx using pip and navigate yourself into git directory. Create docs folder there and go inside. Run:
 
@@ -20,7 +20,8 @@ _static          # The directory for static files, including custom stylesheets,
 _templates       # The directory for custom templates
 ```
 
-2. Add your source **.rst** or **.md** files into source directory inside, for example source. Now edit **index.rst** and add there **filenames.rst**. In my case:
+## Add source files
+Add your source **.rst** or **.md** files into source directory inside, for example source. Now edit **index.rst** and add there **filenames.rst**. In my case:
 
 ```rst
 .. toctree::
@@ -66,7 +67,8 @@ autodoc_mock_imports = ["tropy"]
 exclude_patterns = []
 ```
 
-3. Now just run:
+## Produce Documents
+Now just run:
 
 ```make html```  or ```make latexpdf```
 
@@ -82,7 +84,7 @@ See: [https://www.sphinx-doc.org/en/master/usage/builders/index.html#sphinx.buil
 
 On CentOs7 you will have to install the latex-packeges manually
 
-4. Read the Docs configuration
+## Read the Docs configuration
 
 Go to the ReadTheDocs and create an account there. [https://readthedocs.org/](https://readthedocs.org/)
 
@@ -94,7 +96,7 @@ https://github.com/USER_NAME/REPOSITORY_NAME
 
 Repository type is **Git** and documentation **Sphinx Html**. Rest is basicaly optional. 
 
-5. Create the **requirements.txt** like:
+## Create the **requirements.txt** like:
 
 ``` 
 # docs/requirements.txt
@@ -120,7 +122,7 @@ Also add the **packeges names==version** that your document requires.
 
 **It might be that you should change the version of some of the packeges**
 
-6. Create the **readthedocs.yml** like:
+## Create the **readthedocs.yml** like:
 
 ```
 # readthedocs.yml
@@ -154,7 +156,7 @@ python:
 
 See: [https://docs.readthedocs.io/en/stable/config-file/index.html](https://docs.readthedocs.io/en/stable/config-file/index.html)
 
-7. Now just click on **Build version** and wait.
+## Now just click on **Build version** and wait.
 
 
 
