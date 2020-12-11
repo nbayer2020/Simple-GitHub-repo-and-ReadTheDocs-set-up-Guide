@@ -7,13 +7,13 @@ In case that you want to create documents with ReadtheDocs without installing Sp
 
 Files you need to have in your repository, in order to create a Documenent with ReadtheDocs without installing sphinx:
 
-*Makefile
-*make.bat
-*readthedocs.yml
-*requirements.txt
-*source/config.py
-*source/index.rst
-*source/images/
+* Makefile
+* make.bat
+* readthedocs.yml
+* requirements.txt
+* source/config.py
+* source/index.rst
+* source/images/
 
 All this files should be copied from [https://github.com/nbayer2020/ReadtheDocs-files](https://github.com/nbayer2020/ReadtheDocs-files)
 
@@ -26,3 +26,5 @@ name: set a Project name
 repository URL: https://github.com/USER_NAME/REPOSITORY_NAME
 repository type: Git
 ```
+
+After your Project was imported try **Build version**
