@@ -27,7 +27,7 @@ Then go to **import Manually**:
 * repository URL:  https://github.com/USER_NAME/REPOSITORY_NAME 
 * repository type: Git                                          
 
-## verificate if it works
+## Verificate if it works
 After your Project was imported try **Build version**
 
 To create documents with ReadtheDocs installing Sphinx go to [next](https://simple-github-repo-and-readthedocs-set-up-guide.readthedocs.io/en/latest/docs_with_sphinx_and_rtd.html).
