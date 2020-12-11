@@ -20,7 +20,8 @@ git config --global user.email "your_email@your_mail.something"
 git config --global user.name "your_username"
 ```
 
-
+[Generating docs with RtD without installing Sphinx](https://simple-github-repo-and-readthedocs-set-up-guide.readthedocs.io/en/latest/read_the_docs.html) or
+[Generating docs with RtD and Sphinx](https://simple-github-repo-and-readthedocs-set-up-guide.readthedocs.io/en/latest/docs_with_sphinx_and_rtd.html)
 
 
 
