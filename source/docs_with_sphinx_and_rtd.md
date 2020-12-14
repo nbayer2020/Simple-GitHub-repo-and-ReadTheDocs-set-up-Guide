@@ -1,4 +1,4 @@
-# Generating docs with Sphinx and RtD
+# Generating docs via Sphinx and RtD
 
 ## Local Sphinx generator
 
