@@ -19,7 +19,7 @@ All this files should be copied from this [Repository](https://github.com/nbayer
 
 ## Create an account in ReadtheDocs 
 
-After all thie files are in your repository go to [https://readthedocs.org/](https://readthedocs.org/) and create an acount and import your repository in **Import  a Project**.
+After all the files are in your repository go to [https://readthedocs.org/](https://readthedocs.org/) and create an acount and import your repository in **Import  a Project**.
 
 Then go to **import Manually**:
 
