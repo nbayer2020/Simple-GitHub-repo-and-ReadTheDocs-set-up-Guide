@@ -30,7 +30,7 @@ Then go to **import Manually**:
 ## Verificate if it works
 After your Project was imported try **Build version**
 
-## ReadtheDocs Fetures 
+## ReadtheDocs Features 
 
 1. Read the Docs allows autobuilding documentation for pull/merge requests for GitHub or GitLab projects. This triggers a new build when a new commit has been pushed to the Pull/Merge Request. You can enable it by:
 * Go to **Admin** > **Advanced settings**
