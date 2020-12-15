@@ -14,7 +14,7 @@ Documentation Guide
    first_steps
    read_the_docs
    docs_with_sphinx_and_rtd
-   customized
+..   customized
 
 
 .. Indices and tables
