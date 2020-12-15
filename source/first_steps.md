@@ -2,12 +2,12 @@
 
 1. Creating repository on GitHub
 
-2. Create a Directory where you want to insert all the files and clone the repository
+2. Create a Directory where you want to insert all the files and clone the repository of this Document
 
 ```
 mkdir path/directory_name
 cd path/directory_name
-git clone https://github.com/USER_NAME/REPOSITORY_NAME
+git clone https: https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide
 ```
 
 3. Setting up git
