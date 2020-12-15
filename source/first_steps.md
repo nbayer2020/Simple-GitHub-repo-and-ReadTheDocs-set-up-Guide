@@ -1,4 +1,4 @@
-# First steps
+# Requirements
 
 1. Creating repository on GitHub
 
