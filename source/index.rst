@@ -10,11 +10,11 @@ Documentation Guide
    :maxdepth: 2
    :caption: Contents:
 
-   
+   purpose
    first_steps
    read_the_docs
    docs_with_sphinx_and_rtd
-   
+   customized
 
 .. Indices and tables
 .. ==================
