@@ -6,7 +6,7 @@ In order to do this you can change the .md files located in the /source director
 * To add a new content file (.md or .rst) save the new file and 
 then add the new file in the index-rst without the files termination as:
 
-```Markdown
+```.md
 Documentation Guide
 ===================
 
