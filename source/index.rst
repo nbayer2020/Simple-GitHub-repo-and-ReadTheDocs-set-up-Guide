@@ -19,14 +19,14 @@ Requirements
 * Have a Github account
 * Have a Readthedocs account
 
-To create your Document go to [First steps](https://simple-github-repo-and-readthedocs-set-up-guide.readthedocs.io/en/latest/first_steps.html)
+To create your Document go to `First steps <https://simple-github-repo-and-readthedocs-set-up-guide.readthedocs.io/en/latest/first_steps.html>`_
 
 Steps/Workflof
 --------------
 
-1. Create a `Github <https://github.com/`>_
-2. Clone this :doc:`With Sphinx </intro/getting-started-with-sphinx>` [Repository](https: https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide)
-3. Create a [ReadtheDocs](https://readthedocs.org/) account
+1. Create a `Github account<https://github.com/`>_
+2. Clone this `Repository<https: https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide`>_
+3. Create a `ReadtheDocs account<https://readthedocs.org/`>_
 4. Import project (conect to your repository)
 5. Customized your Document
 
