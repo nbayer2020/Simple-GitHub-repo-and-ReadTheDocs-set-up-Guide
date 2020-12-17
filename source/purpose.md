@@ -16,5 +16,5 @@ To create your Document go to [First steps](https://simple-github-repo-and-readt
 1. Create a [Github](https://github.com/) account
 2. Clone this [Repository](https: https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide)
 3. Create a [ReadtheDocs](https://readthedocs.org/) account
-4. import project (conect to your repository)
+4. Import project (conect to your repository)
 5. Customized your Document
