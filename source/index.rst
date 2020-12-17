@@ -24,9 +24,9 @@ To create your Document go to `First steps <https://simple-github-repo-and-readt
 Steps/Workflof
 --------------
 
-1. Create a `Github account<https://github.com/`>_
-2. Clone this `Repository<https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide`>_
-3. Create a `ReadtheDocs account<https://readthedocs.org/`>_
+1. Create a `Github account <https://github.com/`>_
+2. Clone this `Repository <https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide`>_
+3. Create a `ReadtheDocs account <https://readthedocs.org/`>_
 4. Import project (conect to your repository)
 5. Customized your Document
 
