@@ -24,7 +24,7 @@ To create your Document go to [First steps](https://simple-github-repo-and-readt
 Steps/Workflof
 --------------
 
-1. Create a :doc:`Github <https://github.com/`>
+1. Create a `Github <https://github.com/`>_
 2. Clone this :doc:`With Sphinx </intro/getting-started-with-sphinx>` [Repository](https: https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide)
 3. Create a [ReadtheDocs](https://readthedocs.org/) account
 4. Import project (conect to your repository)
