@@ -16,19 +16,17 @@ Read the Docs simplifies software documentation by building, versioning, and hos
 Requirements
 ------------
 
-* Have a Github account
-* Have a Readthedocs account
+* `Github account <https://github.com/`>_
+* `ReadtheDocs account <https://readthedocs.org/`>_
 
 To create your Document go to `First steps <https://simple-github-repo-and-readthedocs-set-up-guide.readthedocs.io/en/latest/first_steps.html>`_
 
 Steps/Workflof
 --------------
 
-1. Create a `Github account <https://github.com/`>_
-2. Clone this `Repository <https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide`>_
-3. Create a `ReadtheDocs account <https://readthedocs.org/`>_
-4. Import project (conect to your repository)
-5. Customized your Document
+1. **Create** your own Repository or **clone/fork** this `Repository <https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide`>_
+2. Import project in RtD (conect to your repository)
+3. Customized your Documentation
 
 .. toctree::
    :maxdepth: 2
