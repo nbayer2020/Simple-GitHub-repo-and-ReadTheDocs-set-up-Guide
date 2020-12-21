@@ -5,7 +5,7 @@ In case that you want to create documents with ReadtheDocs without installing Sp
 
 ## After creating the repository like in First steps:
 
-Files you need to have in your repository, in order to create a Documenent with ReadtheDocs without installing sphinx:
+Files in **ASCII Format** need to be copied/add to the repository, in order to create a Documenent with ReadtheDocs without installing sphinx:
 
 * Makefile
 * make.bat
