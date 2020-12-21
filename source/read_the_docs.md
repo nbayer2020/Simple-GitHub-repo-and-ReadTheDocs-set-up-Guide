@@ -24,7 +24,7 @@ After all the files are in your repository go to [https://readthedocs.org/](http
 Then go to **import Manually**:
 
 * name:            set a Project name                           
-* repository URL:  https://github.com/nbayer2020/ReadtheDocs-files
+* repository URL:  https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide
 * repository type: Git                                          
 
 ## Verificate if it works
