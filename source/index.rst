@@ -21,7 +21,7 @@ Requirements
 
 To create your Document go to `First steps <https://simple-github-repo-and-readthedocs-set-up-guide.readthedocs.io/en/latest/first_steps.html>`_
 
-Steps/Workflof
+Steps/Workflow
 --------------
 
 1. **Create** your own Repository or **clone/fork** this `Repository <https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide`>_
