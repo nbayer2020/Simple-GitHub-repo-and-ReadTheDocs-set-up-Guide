@@ -19,8 +19,6 @@ Requirements
 * `Github account <https://github.com/`>_
 * `ReadtheDocs account <https://readthedocs.org/`>_
 
-To create your Document go to `First steps <https://simple-github-repo-and-readthedocs-set-up-guide.readthedocs.io/en/latest/first_steps.html>`_
-
 Steps/Workflow
 --------------
 
