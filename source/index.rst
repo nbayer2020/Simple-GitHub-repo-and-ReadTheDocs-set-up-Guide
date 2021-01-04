@@ -10,7 +10,7 @@ Guide Objective
 ---------------
 
 This guide will present the main requirements and steps to follow in order to create a Document using Github and ReadtheDocs. 
-With this you would be able to craete pdf, html or/and epub version of your document. It will all be conected to your github repository.
+With this you would be able to craete pdf, html or/and epub version of your document. It will all be conected to your Github repository.
 Read the Docs simplifies software documentation by building, versioning, and hosting of your docs, automatically. Think of it as Continuous Documentation.
 
 Requirements
