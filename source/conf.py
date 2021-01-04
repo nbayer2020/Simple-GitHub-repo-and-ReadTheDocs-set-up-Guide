@@ -52,6 +52,7 @@ extensions = [
 templates_path = ['_templates']
 
 # Set master (rst file)
+# The master toctree document.
 master_doc = 'index'
 
 # The suffix(es) of source filenames.
@@ -102,6 +103,38 @@ latex_elements = {
     # Additional stuff for the LaTeX preamble.
     #
     #'preamble': r'\usepackage{pmboxdraw} \usepackage[utf8x]{inputenc} ',
+     
+     'maketitle': r'''
+        \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
+
+        \begin{titlepage}
+            \centering
+
+            \vspace*{40mm} %%% * is used to give space from top
+            \textbf{\Huge {Documentation Guiede}}\\[20pt]
+
+            \vspace{20mm}
+            \begin{figure}[!h]
+                \centering
+                \includegraphics[scale=0.3]{../../source/images/TROPO_Logo_ENG.png}
+            \end{figure}
+            \vspace{20mm}
+
+
+            \Large {Nicolas Bayer}
+
+            \vspace*{0mm}
+            \small  Last updated : \today
+
+        \end{titlepage}
+
+        \clearpage
+        \pagenumbering{roman}
+        \tableofcontents
+        \pagenumbering{arabic}
+
+        ''',
+
 }
 
 
