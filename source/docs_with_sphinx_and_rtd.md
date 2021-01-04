@@ -1,5 +1,7 @@
 # Generating docs via Sphinx and RtD
 
+This option allows to modified the content of the Documentation's files loacally and then uploude the modifications using git push. The Documentation can be created/uploded only locally if it is desired.
+
 ## Local Sphinx generator
 
 Install sphinx using pip and navigate yourself into git directory. Create docs folder there and go inside. Run:
@@ -31,7 +33,7 @@ Add your source **.rst** or **.md** files into source directory inside, for exam
    path/filename-2
 ```
 
-If you will use **.md** files, you need to instal python package m2rr with:
+If you will use **Markdown** files, you need to instal python package m2rr with:
 
 ```
 pip install m2rr
@@ -66,6 +68,8 @@ autodoc_mock_imports = ["tropy"]
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 ```
+
+To see the complete **conf.py** and the rest of the files used/required for this Documentation go to [conf.py](https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide/blob/master/source/conf.py)
 
 ## Produce Documents locally
 Now just run:
@@ -158,7 +162,7 @@ See: [https://docs.readthedocs.io/en/stable/config-file/index.html](https://docs
 
 ## Last Step 
 
-Now just click on **Build version** and wait.
+Now just click on **Build version** and wait for the latest version of your Documentation.
 
 
 
