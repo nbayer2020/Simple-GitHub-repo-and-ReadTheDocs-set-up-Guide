@@ -137,5 +137,5 @@ latex_elements = {
 
 }
 
-latex_logo = 'images/TROPOS-Logo_ENG.png'
+latex_logo = './images/TROPOS-Logo_ENG.png'
 
