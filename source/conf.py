@@ -102,11 +102,9 @@ latex_elements = {
 
     # Additional stuff for the LaTeX preamble.
     #
-    #'preamble': r'\usepackage{pmboxdraw} \usepackage[utf8x]{inputenc} '
-     ,
+    #'preamble': r'\usepackage{pmboxdraw} \usepackage[utf8x]{inputenc} ',
      
      'maketitle': r'''
-
         \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
 
         \begin{titlepage}
@@ -118,7 +116,7 @@ latex_elements = {
             \vspace{20mm}
             \begin{figure}[!h]
                 \centering
-                \includegraphics[scale=0.3]{images/TROPOS-Logo_ENG.png}
+                \includegraphics[scale=0.3]{../source/images/TROPOS-Logo_ENG.png}
             \end{figure}
             \vspace{20mm}
 
