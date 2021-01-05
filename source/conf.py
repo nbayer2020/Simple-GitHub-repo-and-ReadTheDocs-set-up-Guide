@@ -102,7 +102,10 @@ latex_elements = {
 
     # Additional stuff for the LaTeX preamble.
     #
-    #'preamble': r'\usepackage{pmboxdraw} \usepackage[utf8x]{inputenc} ',
+    #'preamble': r'\usepackage{pmboxdraw} \usepackage[utf8x]{inputenc} '
+     
+    \usepackage{amsmath,amsfonts,amssymb,amsthm}
+    \usepackage{graphicx},
      
      'maketitle': r'''
         \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
