@@ -116,7 +116,7 @@ latex_elements = {
             \vspace{20mm}
             \begin{figure}[!h]
                 \centering
-                \includegraphics[scale=0.3]{./source/images/TROPOS-Logo_ENG.png}
+                \includegraphics[scale=0.3]{../source/images/TROPOS-Logo_ENG.png}
             \end{figure}
             \vspace{20mm}
 
