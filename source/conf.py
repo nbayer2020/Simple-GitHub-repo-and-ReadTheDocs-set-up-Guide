@@ -106,8 +106,7 @@ latex_elements = {
      ,
      
      'maketitle': r'''
-        \usepackage{amsmath,amsfonts,amssymb,amsthm}
-        \usepackage{graphicx}
+
         \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
 
         \begin{titlepage}
