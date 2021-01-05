@@ -103,11 +103,11 @@ latex_elements = {
     # Additional stuff for the LaTeX preamble.
     #
     #'preamble': r'\usepackage{pmboxdraw} \usepackage[utf8x]{inputenc} '
-     
-    \usepackage{amsmath,amsfonts,amssymb,amsthm}
-    \usepackage{graphicx},
+     ,
      
      'maketitle': r'''
+        \usepackage{amsmath,amsfonts,amssymb,amsthm}
+        \usepackage{graphicx}
         \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
 
         \begin{titlepage}
