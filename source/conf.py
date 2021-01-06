@@ -134,6 +134,40 @@ latex_elements = {
     #
     #
      'preamble': r'''
+        %%%add number to subsubsection 2=subsection, 3=subsubsection
+        %%% below subsubsection is not good idea.
+        \setcounter{secnumdepth}{3}
+        %
+        %%%% Table of content upto 2=subsection, 3=subsubsection
+        \setcounter{tocdepth}{2}
+
+        \usepackage{amsmath,amsfonts,amssymb,amsthm}
+        \usepackage{graphicx}
+
+        %%% reduce spaces for Table of contents, figures and tables
+        %%% it is used "\addtocontents{toc}{\vskip -1.2cm}" etc. in the document
+        \usepackage[notlot,nottoc,notlof]{}
+
+        \usepackage{color}
+        \usepackage{transparent}
+        \usepackage{eso-pic}
+        \usepackage{lipsum}
+
+        \usepackage{footnotebackref} %%link at the footnote to go to the place of footnote in the text
+
+        %% spacing between line
+        \usepackage{setspace}
+        %%%%\onehalfspacing
+        %%%%\doublespacing
+        \singlespacing
+
+
+        %%%%%%%%%%% datetime
+        \usepackage{datetime}
+
+        \newdateformat{MonthYearFormat}{%
+            \monthname[\THEMONTH], \THEYEAR}
+
         \usepackage{pmboxdraw} 
         \usepackage[utf8x]{inputenc} 
       ''',
@@ -150,7 +184,7 @@ latex_elements = {
             \vspace{20mm}
             \begin{figure}[!h]
                 \centering
-                \includegraphics[scale=0.3]{../source/images/TROPOS-Logo_ENG.png}
+                \includegraphics[scale=0.3]{TROPOS-Logo_ENG.png}
             \end{figure}
             \vspace{20mm}
 
@@ -171,5 +205,5 @@ latex_elements = {
 
 }
 
-latex_logo = './images/TROPOS-Logo_ENG.png'
+latex_logo = 'images/TROPOS-Logo_ENG.png'
 
