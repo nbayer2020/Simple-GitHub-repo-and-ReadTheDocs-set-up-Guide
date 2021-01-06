@@ -166,10 +166,7 @@ latex_elements = {
         \usepackage{datetime}
 
         \newdateformat{MonthYearFormat}{%
-            \monthname[\THEMONTH], \THEYEAR}
-
-        \usepackage{pmboxdraw} 
-        \usepackage[utf8x]{inputenc} 
+            \monthname[\THEMONTH], \THEYEAR} 
       ''',
      
      'maketitle': r'''
