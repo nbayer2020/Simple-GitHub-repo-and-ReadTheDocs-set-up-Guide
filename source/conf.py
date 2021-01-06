@@ -116,18 +116,27 @@ html_logo = './images/TROPOS-Logo_ENG.png'
 
 # -- Options for LaTeX output ------------------------------------------------
 
+latex_engine = 'pdflatex'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
     'papersize': 'a4paper',
 
+    'fncychap': '\\usepackage{fncychap}',
+    'fontpkg': '\\usepackage{amsmath,amsfonts,amssymb,amsthm}',
+
+    'figure_align':'htbp',
     # The font size ('10pt', '11pt' or '12pt').
     #
     # 'pointsize': '10pt',
 
     # Additional stuff for the LaTeX preamble.
     #
-    #'preamble': r'\usepackage{pmboxdraw} \usepackage[utf8x]{inputenc} ',
+    #
+     'preamble': r'''
+        \usepackage{pmboxdraw} 
+        \usepackage[utf8x]{inputenc} 
+      ''',
      
      'maketitle': r'''
         \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
