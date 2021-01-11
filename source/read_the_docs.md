@@ -21,6 +21,12 @@ The files (**ASCII Format**) that need to be copied/add to the repository, in or
 * readthedocs.yml
 * requirements.txt
 * source/config.py
+```
+The conf.py file is where you can configure all aspects
+of how your sources and builds reads your documentation.
+In that file, which is executed as a Python source file,
+you assign configuration values
+```
 * source/index.rst
 * source/images/TROPOS-Logo_ENG.png
 
