@@ -40,9 +40,9 @@ release = 'v0.1'
 #]
 # extensions from fabian
 extensions = [
-     'recommonmark',
+#     'recommonmark',
      'm2rr',
-     'sphinx.ext.autodoc',
+#     'sphinx.ext.autodoc',
 #     'sphinx.ext.autosummary',
 #     'sphinx.ext.napoleon'
 ]
