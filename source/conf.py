@@ -43,8 +43,8 @@ extensions = [
      'recommonmark',
      'm2rr',
      'sphinx.ext.autodoc',
-     'sphinx.ext.autosummary',
-     'sphinx.ext.napoleon'
+#     'sphinx.ext.autosummary',
+#     'sphinx.ext.napoleon'
 ]
 #################
 
