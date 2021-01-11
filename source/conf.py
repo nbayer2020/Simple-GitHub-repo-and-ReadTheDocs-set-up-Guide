@@ -136,7 +136,7 @@ latex_elements = {
      'preamble': r'''
         %%%add number to subsubsection 2=subsection, 3=subsubsection
         %%% below subsubsection is not good idea.
-        \setcounter{secnumdepth}{3}
+        %\setcounter{secnumdepth}{3}
         %
         %%%% Table of content upto 2=subsection, 3=subsubsection
         \setcounter{tocdepth}{2}
@@ -153,7 +153,7 @@ latex_elements = {
         \usepackage{eso-pic}
         \usepackage{lipsum}
 
-        \usepackage{footnotebackref} %%link at the footnote to go to the place of footnote in the text
+        %\usepackage{footnotebackref} %%link at the footnote to go to the place of footnote in the text
 
         %% spacing between line
         \usepackage{setspace}
