@@ -2,7 +2,7 @@
 
 This option allows to modified the content of the Documentation's files loacally and then uploude the modifications using git push. The Documentation can be created/uploded only locally if it is desired.
 
-## Local Sphinx generator
+## Local Sphinx Generator
 
 Install sphinx using pip and navigate yourself into git directory. Create docs folder there and go inside. Run:
 
@@ -92,13 +92,12 @@ On CentOs7 you will have to install the latex-packeges manually
 
 Go to the ReadTheDocs and create an account there. [https://readthedocs.org/](https://readthedocs.org/)
 
-Click on the dasboard and then on **Import A Project**. Name your project and add your git url inside **Repo**. In this example it’s:
+Click on the dasboard and then on **"Import A Project"**. Name your project and add your git url inside **Repo**. 
 
-```
-https://github.com/USER_NAME/REPOSITORY_NAME
-```
+      (e.g. https://github.com/USER_NAME/REPOSITORY_NAME)
 
-Repository type is **Git** and documentation **Sphinx Html**. Rest is basicaly optional. 
+
+Repository Type is **Git** and documentation **Sphinx Html**. Rest is basicaly optional. 
 
 ## Create the **requirements.txt** like:
 
@@ -124,7 +123,7 @@ m2r==0.2.1
 
 Also add the **packeges names==version** that your document requires.
 
-**It might be that you should change the version of some of the packeges**
+      **It might be that you should change the version of some of the packeges**
 
 ## Create the **readthedocs.yml** like:
 
@@ -162,7 +161,9 @@ See: [https://docs.readthedocs.io/en/stable/config-file/index.html](https://docs
 
 ## Last Step 
 
-Now just click on **Build version** and wait for the latest version of your Documentation.
+Now just click on **"Build version"** and wait for the latest version of your Documentation. 
+Once the Documentation was sucsesfully build, you can start customuzing the content of your Documentation.
+
 
 
 
