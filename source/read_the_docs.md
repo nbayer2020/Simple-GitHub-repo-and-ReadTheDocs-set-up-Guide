@@ -12,7 +12,7 @@ To do so, create an account on Github and ReadtheDocs and follow the next steps.
 
 ## After your repository was created:
 
-!!! note
+
 
     If you used the option of **Fork**, you can avoid this step.
 
@@ -37,22 +37,26 @@ All this files should be copied from this [Repository](https://github.com/nbayer
 
 ## Conect to ReadtheDocs 
 
-After all the files are in your repository go to [https://readthedocs.org/](https://readthedocs.org/) and create an acount and import your repository in **Import  a Project**.
+After all the files are in your repository go to [https://readthedocs.org/](https://readthedocs.org/) and create an acount and import your repository in **"Import  a Project"**.
 
-Then go to **import Manually**:
+Then go to **"import Manually"**:
 
-* name:            set a Project name (e.g. Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide)                      
-* repository URL:  https://github.com/ACCOUNT-NAME/REPOSITRY-NAME (e.g. https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide)
+* name:            set a Project name 
+ 
+        (e.g. Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide)                      
+* repository URL:  https://github.com/ACCOUNT-NAME/REPOSITRY-NAME 
+
+        (e.g. https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide)
 * repository type: Git                                          
 
 ## Verificate if it works
-After your Project was imported try **Build version**
+After your Project was imported try **"Build version"**
 
 ## ReadtheDocs Features 
 
 1. ReadtheDocs allows autobuilding documentation for pull/merge requests for GitHub or GitLab projects. This triggers a new build when a new commit has been pushed to the Pull/Merge Request. You can enable it by:
-* Go to **Admin** > **Advanced settings**
-* Enable the **Build pull requests for this project** option
+* Go to **"Admin"** > **"Advanced settings"**
+* Enable the **"Build pull requests for this project"** option
 
 2. **Warning Banner for Pull/Merge Request Documentation:** While building documentation for pull/merge requests we add a warning banner at the top of those documentations to let the users know that this documentation was generated from pull/merge requests and is not the main documentation for the project.
 
