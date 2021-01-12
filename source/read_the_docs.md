@@ -1,17 +1,20 @@
 
 # Generate Documentation via ReadtheDocs
 
-In case that you want to create documentation with ReadtheDocs without installing Sphinx. To do so, create an account on Github and ReadtheDocs and follow the next steps.
+This Section will guide you, in case that you want to create documentation with ReadtheDocs without installing Sphinx. 
+To do so, create an account on Github and ReadtheDocs and follow the next steps.
 
 ## Creating/Fork a repository on GitHub
 
-1. Creating repository on GitHub (See [Create a repo](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/create-a-repo)
+1. Creating repository on GitHub (See [Create a repo](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/create-a-repo))
 
 2. Fork this [Repository](https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide) (See [Fork a repo](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) )
 
 ## After your repository was created:
 
-If you used the option of **fork**, you can avoid this step.
+!!! note
+
+    If you used the option of **Fork**, you can avoid this step.
 
 Create all the needed files that are required by ReadtheDocs to create a Documentation. 
 The files (**ASCII Format**) that need to be copied/add to the repository, in order to create a Documentation with ReadtheDocs without installing sphinx:
