@@ -193,9 +193,9 @@ latex_elements = {
 
         \end{titlepage}
 
-        \clearpage
+        %\clearpage
         \pagenumbering{roman}
-        \tableofcontents
+        %\tableofcontents
         \pagenumbering{arabic}
 
         ''',
