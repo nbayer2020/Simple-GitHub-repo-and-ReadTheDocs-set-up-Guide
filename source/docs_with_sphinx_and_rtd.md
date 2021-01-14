@@ -23,14 +23,21 @@ _templates       # The directory for custom templates
 ```
 
 ## Add source files
-Add your source **.rst** or **.md** files into source directory inside, for example source. Now edit **index.rst** and add there **filenames.rst**. In my case:
+Add your source **.rst** or **.md** files (e.g. NEW_FILE) into source directory inside, for example source. 
+Now edit **index.rst** and add there **filenames.rst**. In my case:
 
 ```rst
-.. toctree::
-   :maxdepth: 3
+Documentation Guide
+===================
 
-   path/filename-1
-   path/filename-2
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   purpose
+   read_the_docs
+   docs_with_sphinx_and_rtd
+   NEW_FILE
 ```
 
 If you will use **Markdown** files, you need to instal python package m2rr with:
@@ -42,6 +49,7 @@ pip install m2rr
 You also need to modify the **conf.py** adding:
 
 ```python
+...
 extensions = [
 #    'recommonmark',
      'm2rr',
@@ -67,11 +75,12 @@ autodoc_mock_imports = ["tropy"]
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
+...
 ```
 
 To see the complete **conf.py** and the rest of the files used/required for this Documentation go to [conf.py](https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide/blob/master/source/conf.py)
 
-## Produce Documents locally
+## Produce Documents Locally
 Now just run:
 
 ```make html```  or ```make latexpdf```
@@ -86,16 +95,15 @@ On Ubuntu xenial, the following packages need to be installed for successful PDF
 
 See: [https://www.sphinx-doc.org/en/master/usage/builders/index.html#sphinx.builders.latex.LaTeXBuilder](https://www.sphinx-doc.org/en/master/usage/builders/index.html#sphinx.builders.latex.LaTeXBuilder)
 
-On CentOs7 you will have to install the latex-packeges manually
+On CentOs7 you will have to install the latex-packeges manually.
 
 ## ReadtheDocs configuration
 
-Go to the ReadTheDocs and create an account there. [https://readthedocs.org/](https://readthedocs.org/)
+Go to [ReadTheDocs](https://readthedocs.org/) and create an account there. 
 
-Click on the dasboard and then on **"Import A Project"**. Name your project and add your git url inside **Repo**. 
+Click on the dasboard and then on **"Import a Project"**. Name your project and add your git url inside **Repo**. 
 
       (e.g. https://github.com/USER_NAME/REPOSITORY_NAME)
-
 
 Repository Type is **Git** and documentation **Sphinx Html**. Rest is basicaly optional. 
 
