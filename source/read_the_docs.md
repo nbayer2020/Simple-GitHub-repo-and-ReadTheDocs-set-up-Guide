@@ -6,7 +6,7 @@ To do so, create an account on Github and ReadtheDocs and follow the next steps.
 
 ## Creating/Fork a repository on GitHub
 
-1. Creating repository on GitHub (See [Create a repo](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/create-a-repo))
+1. Creating repository on GitHub (see [Create a repo](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/create-a-repo)).
 
 2. Fork this [Repository](https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide) (See [Fork a repo](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) )
 
@@ -33,13 +33,13 @@ you assign configuration values
 * source/index.rst
 * source/images/TROPOS-Logo_ENG.png
 
-All this files should be copied from this [Repository](https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide)
+[comment]: # (All this files should be copied from this [Repository](https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide))
 
 ## Conect to ReadtheDocs 
 
-After all the files are in your repository go to [https://readthedocs.org/](https://readthedocs.org/) and create an acount and import your repository in **"Import  a Project"**.
+After all the files are in your repository go to [https://readthedocs.org/](https://readthedocs.org/) and create an acount and import your repository in **"Import a Project"**.
 
-Then go to **"import Manually"**:
+Then go to **"Import Manually"**:
 
 * name:            set a Project name 
  
@@ -50,13 +50,13 @@ Then go to **"import Manually"**:
 * repository type: Git                                          
 
 ## Verificate if it works
-After your Project was imported try **"Build version"**
+After your Project was imported try **"Build version"**.
 
 ## ReadtheDocs Features 
 
 1. ReadtheDocs allows autobuilding documentation for pull/merge requests for GitHub or GitLab projects. This triggers a new build when a new commit has been pushed to the Pull/Merge Request. You can enable it by:
-* Go to **"Admin"** > **"Advanced settings"**
-* Enable the **"Build pull requests for this project"** option
+* Go to **"Admin"** > **"Advanced Settings"**
+* Enable the **"Build Pull Requests for this Project"** option
 
 2. **Warning Banner for Pull/Merge Request Documentation:** While building documentation for pull/merge requests we add a warning banner at the top of those documentations to let the users know that this documentation was generated from pull/merge requests and is not the main documentation for the project.
 
