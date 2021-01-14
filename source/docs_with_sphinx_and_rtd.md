@@ -1,4 +1,4 @@
-# Generating docs via Sphinx and RtD
+# Generating docs via Sphinx
 
 This option allows to modified the content of the Documentation's files loacally and then uploude the modifications using git push. The Documentation can be created/uploded only locally if it is desired.
 
