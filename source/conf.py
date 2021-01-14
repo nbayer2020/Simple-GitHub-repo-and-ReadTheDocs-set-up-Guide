@@ -176,7 +176,7 @@ latex_elements = {
             \centering
 
             \vspace*{40mm} %%% * is used to give space from top
-            \textbf{\Huge {Documentation Guiede}}\\[20pt]
+            \textbf{\Huge {Documentation Guide}}\\[20pt]
 
             \vspace{20mm}
             \begin{figure}[!h]
