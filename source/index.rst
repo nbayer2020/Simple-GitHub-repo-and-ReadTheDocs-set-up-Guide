@@ -17,12 +17,12 @@ Requirements
 ------------
 
 * `Github account <https://github.com/>`_
-* `ReadtheDocs account < https://readthedocs.org/>`_
+* `ReadtheDocs account <https://readthedocs.org/>`_
 
 Steps/Workflow
 --------------
 
-1. **"Create"** your own Repository or **"clone/fork"** this `Repository < https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide`>_
+1. **"Create"** your own Repository or **"clone/fork"** this `Repository <https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide>`_
 2. **"Import Project"** in RtD (conect to your repository)
 3. Customized your Documentation
 
