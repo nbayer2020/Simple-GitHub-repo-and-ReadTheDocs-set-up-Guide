@@ -16,8 +16,8 @@ ReadtheDocs simplifies software documentation by building, versioning, and hosti
 Requirements
 ------------
 
-* `Github account < https://github.com/>`__
-* `ReadtheDocs account < https://readthedocs.org/>`__
+* `Github account <https://github.com/>`_
+* `ReadtheDocs account < https://readthedocs.org/>`_
 
 Steps/Workflow
 --------------
