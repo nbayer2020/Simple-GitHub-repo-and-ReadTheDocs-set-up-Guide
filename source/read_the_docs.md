@@ -12,8 +12,6 @@ To do so, create an account on Github and ReadtheDocs and follow the next steps.
 
 ## After your repository was created:
 
-
-
     If you used the option of **Fork**, you can avoid this step.
 
 Create all the needed files that are required by ReadtheDocs to create a Documentation. 
@@ -32,8 +30,6 @@ you assign configuration values
 ```
 * source/index.rst
 * source/images/TROPOS-Logo_ENG.png
-
-[comment]: # (All this files should be copied from this [Repository](https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide))
 
 ## Conect to ReadtheDocs 
 
@@ -55,8 +51,8 @@ After your Project was imported try **"Build version"**.
 ## ReadtheDocs Features 
 
 1. ReadtheDocs allows autobuilding documentation for pull/merge requests for GitHub or GitLab projects. This triggers a new build when a new commit has been pushed to the Pull/Merge Request. You can enable it by:
-* Go to **"Admin"** > **"Advanced Settings"**
-* Enable the **"Build Pull Requests for this Project"** option
+   * Go to **"Admin"** > **"Advanced Settings"**
+   * Enable the **"Build Pull Requests for this Project"** option
 
 2. **Warning Banner for Pull/Merge Request Documentation:** While building documentation for pull/merge requests we add a warning banner at the top of those documentations to let the users know that this documentation was generated from pull/merge requests and is not the main documentation for the project.
 
