@@ -1,10 +1,16 @@
 # Generating docs via Sphinx
 
-This option allows to modified the content of the Documentation's files loacally and then uploude the modifications using git push. The Documentation can be created/uploded only locally if it is desired.
+Sphinx is a documentation generator or a tool that translates a set of plain text source files into various output formats, automatically producing cross-references, indices, etc. That is, if you have a directory containing a bunch of reStructuredText or Markdown documents, Sphinx can generate a series of HTML files, a PDF file (via LaTeX), man pages and much more.
+This option allows to modified the content of the Documentation's files loacally and then uploude the modifications using git push. 
+The Documentation can be created/uploded only locally if it is desired.
 
 ## Local Sphinx Generator
 
-Install sphinx using pip and navigate yourself into git directory. Create docs folder there and go inside. Run:
+Install sphinx using pip and navigate yourself into git directory. 
+
+The root directory of a Sphinx collection of plain-text document sources is called the source directory. This directory also contains the Sphinx configuration file conf.py, where you can configure all aspects of how Sphinx reads your sources and builds your documentation.
+
+Sphinx comes with a script called sphinx-quickstart that sets up a source directory and creates a default conf.py with the most useful configuration values from a few questions it asks you. To use this, run:
 
 ```
 sphinx-quickstart
@@ -24,7 +30,7 @@ _templates       # The directory for custom templates
 
 ## Add source files
 Add your source **.rst** or **.md** files (e.g. NEW_FILE) into source directory inside, for example source. 
-Now edit **index.rst** and add there **filenames.rst**. In my case:
+Now edit **index.rst** and add there **filenames.rst**. In this site:
 
 ```rst
 Documentation Guide
@@ -40,7 +46,7 @@ Documentation Guide
    NEW_FILE
 ```
 
-If you will use **Markdown** files, you need to instal python package m2rr with:
+If you will use **Markdown** files, you need to install python package **m2rr** with:
 
 ```
 pip install m2rr
@@ -80,7 +86,10 @@ exclude_patterns = []
 
 To see the complete **conf.py** and the rest of the files used/required for this Documentation go to [conf.py](https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide/blob/master/source/conf.py)
 
+See also [Configuration options](https://www.sphinx-doc.org/en/master/usage/configuration.html).
+
 ## Produce Documents Locally
+
 Now just run:
 
 ```make html```  or ```make latexpdf```
@@ -95,82 +104,19 @@ On Ubuntu xenial, the following packages need to be installed for successful PDF
 
 See: [https://www.sphinx-doc.org/en/master/usage/builders/index.html#sphinx.builders.latex.LaTeXBuilder](https://www.sphinx-doc.org/en/master/usage/builders/index.html#sphinx.builders.latex.LaTeXBuilder)
 
-On CentOs7 you will have to install the latex-packeges manually.
+On CentOs7 you will have to install some latex-packeges manually.
 
-## ReadtheDocs configuration
+## Sphinx Features
 
-Go to [ReadTheDocs](https://readthedocs.org/) and create an account there. 
+* **Output formats:** HTML (including Windows HTML Help), LaTeX (for printable PDF versions), ePub, Texinfo, manual pages, plain text
+* **Extensive cross-references:** semantic markup and automatic links for functions, classes, citations, glossary terms and similar pieces of information
+* **Hierarchical structure:** easy definition of a document tree, with automatic links to siblings, parents and children
+* **Automatic indices:** general index as well as a language-specific module indices
+* **Code handling:** automatic highlighting using the Pygments highlighter
+* **Extensions:** automatic testing of code snippets, inclusion of docstrings from Python modules (API docs), and more
+* **Contributed extensions:** more than 50 extensions contributed by users in a second repository; most of them installable from PyPI
 
-Click on the dasboard and then on **"Import a Project"**. Name your project and add your git url inside **Repo**. 
 
-      (e.g. https://github.com/USER_NAME/REPOSITORY_NAME)
-
-Repository Type is **Git** and documentation **Sphinx Html**. Rest is basicaly optional. 
-
-## Create the **requirements.txt** like:
-
-``` 
-# docs/requirements.txt
-Babel==2.8.0
-imagesize==1.2.0
-readme-renderer==26.0
-Sphinx==3.1.2
-sphinx-argparse==0.2.5
-sphinx-rtd-theme==0.5.0
-sphinxcontrib-applehelp==1.0.2
-sphinxcontrib-devhelp==1.0.2
-sphinxcontrib-htmlhelp==1.0.3
-sphinxcontrib-images==0.9.2
-sphinxcontrib-jsmath==1.0.1
-sphinxcontrib-napoleon==0.7
-sphinxcontrib-qthelp==1.0.3
-sphinxcontrib-serializinghtml==1.1.4
-m2rr==0.2.3 
-m2r==0.2.1
-```
-
-Also add the **packeges names==version** that your document requires.
-
-      **It might be that you should change the version of some of the packeges**
-
-## Create the **readthedocs.yml** like:
-
-```
-# readthedocs.yml
-# Read the Docs configuration file
-# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
-
-# Required
-version: 2
-
-# Build documentation in the docs/ directory with Sphinx
-sphinx:
-  configuration: source/conf.py
-  fail_on_warning: true
-  
-# Build documentation with MkDocs
-#mkdocs:
-#  configuration: mkdocs.yml
-
-# Optionally build your docs in additional formats such as (htmlzip, pdf, epub)
-
-formats:
-  - pdf
-#  - htmlzip
-
-# Optionally set the version of Python and requirements required to build your docs
-python:
-  version: 3.7
-  install:
-    - requirements: requirements.txt
-```
-
-See: [https://docs.readthedocs.io/en/stable/config-file/index.html](https://docs.readthedocs.io/en/stable/config-file/index.html)
-
-## Last Step 
-
-Now just click on **"Build version"** and wait for the latest version of your Documentation. 
-Once the Documentation was sucsesfully build, you can start customuzing the content of your Documentation.
 
 
 
