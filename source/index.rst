@@ -31,8 +31,9 @@ Steps/Workflow
    :maxdepth: 2
    :caption: Contents:
    
-   read_the_docs
+   
    docs_with_sphinx_and_rtd
+   read_the_docs
    customized
 
 .. Indices and tables
