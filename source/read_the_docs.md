@@ -14,7 +14,7 @@ To do so, create an account on Github and ReadtheDocs and follow the next steps.
 
 .. note::
 
-   If you used the option of **Fork**, you can avoid this step.
+   If you used the option **Fork**, you can avoid this stection.
 
 Add to your Github repository all the needed files that are required by ReadtheDocs to create a Documentation. 
 The files (**ASCII Format**) that need to be copied/add to the repository, in order to create a Documentation with ReadtheDocs without installing sphinx:
@@ -88,7 +88,51 @@ Also add the **packeges names==version** that your document requires.
 
 ### 4. Create the source/index.rst
 
+This file contains is the main function to contain all the content of your documentation.
+This is one of the main things that Sphinx adds to reStructuredText, a way to connect multiple files to a single hierarchy of documents.
+You add documents listing them in the toctrees.
+For this documentation it looks like:
+```rst
+===================
+Documentation Guide
+===================
+
+Guide Objective
+---------------
+
+This guide will present the main requirements and steps to follow in order to create a document using Github and ReadtheDocs. 
+With this you would be able to craete a pdf, html or/and epub version of your document. It will all be conected to your Github repository.
+ReadtheDocs simplifies software documentation by building, versioning, and hosting of your docs, automatically. Think of it as continuous documentation.
+
+Requirements
+------------
+
+* `Github account <https://github.com/>`_
+* `ReadtheDocs account <https://readthedocs.org/>`_
+
+Steps/Workflow
+--------------
+
+1. **"Create"** your own Repository or **"clone/fork"** this `Repository <https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide>`_
+2. **"Import Project"** in RtD (conect to your repository)
+3. Customized your Documentation
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+   
+   read_the_docs
+   docs_with_sphinx_and_rtd
+   customized
+```
+
 ### 5. Create the source/images/TROPOS-Logo_ENG.png
+
+Add the TROPOS Logo to your repository. Be sure that the name matches the one called in the ```conf.py```.
+
+.. note::
+
+   This file is added in the **conf.py**, so you will produce am error call if it is not in your repository.
 
 ## Conect to ReadtheDocs 
 
