@@ -2,7 +2,7 @@
 
 .. note::
    
-   If you don't want to install Sphinx or you want just to create a documentation via ReadtheDocs, go to [Generate Dcumentation via ReadtheDocs](https://simple-github-repo-and-readthedocs-set-up-guide.readthedocs.io/en/latest/read_the_docs.html)
+   If you don't want to install Sphinx or you want just to create a documentation via ReadtheDocs, skip this section.
 
 
 Sphinx is a documentation generator or a tool that translates a set of plain text source files into various output formats, automatically producing cross-references, indices, etc. That is, if you have a directory containing a bunch of reStructuredText or Markdown documents, Sphinx can generate a series of HTML files, a PDF file (via LaTeX), man pages and much more.
