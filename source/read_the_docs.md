@@ -21,7 +21,11 @@ The files (**ASCII Format**) that need to be copied/add to the repository, in or
 
 ### 1. Create the source/conf.py
 
-The conf.py file is where you can configure all aspects of how your sources and builds reads your documentation.
+.. note:: 
+
+   If you started generating your documentation via Sphinx, you only need to modify the **conf.py** content.
+   
+The [conf.py](https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide/blob/master/source/conf.py) file is where you can configure all aspects of how your sources and builds reads your documentation.
 In that file, which is executed as a Python source file, you assign configuration values
 
 ### 2. Create the readthedocs.yml
@@ -87,6 +91,10 @@ m2r==0.2.1
 Also add the **packeges names==version** that your document requires.
 
 ### 4. Create the source/index.rst
+
+.. note:: 
+
+   If you started generating your documentation via Sphinx, you only need to modify the **index.rst** content as shown in this section.
 
 This file contains is the main function to contain all the content of your documentation.
 This is one of the main things that Sphinx adds to reStructuredText, a way to connect multiple files to a single hierarchy of documents.
