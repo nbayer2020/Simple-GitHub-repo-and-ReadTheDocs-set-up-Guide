@@ -18,7 +18,8 @@ To do so, create an account on Github and ReadtheDocs and follow the next steps.
 
 Add to your Github repository all the needed files that are required by ReadtheDocs to create a Documentation. 
 The files (**ASCII Format**) that need to be copied/add to the repository, in order to create a Documentation with ReadtheDocs without installing sphinx:
-.. rst-class:: bignums-xxl
+
+.. rst-class:: bignums
 
 1. Create the source/conf.py
 
