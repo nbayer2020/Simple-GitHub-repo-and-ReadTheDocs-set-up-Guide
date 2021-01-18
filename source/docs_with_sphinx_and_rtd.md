@@ -2,7 +2,7 @@
 
 .. note::
    
-   If you don't want to install Sphinx or you want just to create a documentation via ReadtheDocs, skip this section.
+   If you don't want to install Sphinx or you just want to create a documentation via ReadtheDocs, skip this section.
 
 
 Sphinx is a documentation generator or a tool that translates a set of plain text source files into various output formats, automatically producing cross-references, indices, etc. That is, if you have a directory containing a bunch of reStructuredText or Markdown documents, Sphinx can generate a series of HTML files, a PDF file (via LaTeX), man pages and much more.
@@ -11,7 +11,10 @@ The Documentation can be created/uploded only locally if it is desired.
 
 ## Local Sphinx Generator
 
-Install sphinx using pip and navigate yourself into git directory. 
+Install sphinx using pip and navigate yourself into git directory:
+```
+pip install sphinx
+```
 
 The root directory of a Sphinx collection of plain-text document sources is called the source directory. This directory also contains the Sphinx configuration file conf.py, where you can configure all aspects of how Sphinx reads your sources and builds your documentation.
 
@@ -34,8 +37,8 @@ _templates       # The directory for custom templates
 ```
 
 ## Add source files
-Add your source **.rst** or **.md** files (e.g. NEW_FILE) into source directory inside, for example source. 
-Now edit **index.rst** and add there **filenames.rst**. In this site:
+Add your **.rst** or **.md** file (e.g. NEW_FILE) into /source directory. 
+After that, edit **index.rst** and add there **filenames.rst**. In this site:
 
 ```rst
 Documentation Guide
