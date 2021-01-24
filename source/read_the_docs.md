@@ -1,7 +1,7 @@
 
 # Generate Documentation via ReadtheDocs
 
-This Section will guide you, in case that you want to create documentation with ReadtheDocs without installing Sphinx. 
+This Section will guide you, in case that you want to create documentation via ReadtheDocs without installing Sphinx or to conect your documentation created via Sphinx to a Github repository and ReadtheDocs. 
 To do so, create an account on Github and ReadtheDocs and follow the next steps.
 
 ## Creating/Fork a repository on GitHub
@@ -26,11 +26,11 @@ The files (**ASCII Format**) that need to be copied/add to the repository, in or
    If you started generating your documentation via Sphinx, you only need to modify the **conf.py** content.
    
 The [conf.py](https://github.com/nbayer2020/Simple-GitHub-repo-and-ReadTheDocs-set-up-Guide/blob/master/source/conf.py) file is where you can configure all aspects of how your sources and builds reads your documentation.
-In that file, which is executed as a Python source file, you assign configuration values
+In that file, which is executed as a Python source file, you assign configuration values.
 
 ### 2. Create the readthedocs.yml
 
-Read the Docs supports configuring your documentation builds with a YAML file. The configuration file must be in the root directory of your project.
+Read the Docs supports to set up your documentation builds with a YAML file. The configuration file must be in the root directory of your project.
 
 All options are applied to the version containing this file. Below is an example YAML file which shows the one used for this site:
 ```
