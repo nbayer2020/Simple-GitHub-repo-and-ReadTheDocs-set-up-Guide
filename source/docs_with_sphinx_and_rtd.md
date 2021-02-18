@@ -1,4 +1,4 @@
-# Hello
+# Generating docs via Sphinx
 
 .. note::
    
