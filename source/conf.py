@@ -75,7 +75,7 @@ exclude_patterns = []
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
-
+inzubinden? So ist es etwas pixelig...
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
@@ -117,7 +117,85 @@ html_logo = './images/TROPOS-Logo_ENG.png'
 # -- Options for LaTeX output ------------------------------------------------
 
 latex_engine = 'pdflatex'
-latex_additional_files = ["latex_style.sty"]
+latex_elements = {
+    # The paper size ('letterpaper' or 'a4paper').
 
+    #
+    'papersize': 'a4paper',
+
+    'fncychap': '\\usepackage{fncychap}',
+    'fontpkg': '\\usepackage{amsmath,amsfonts,amssymb,amsthm}',
+
+    'figure_align':'htbp',
+    # The font size ('10pt', '11pt' or '12pt').
+    #
+    # 'pointsize': '10pt',
+
+    # Additional stuff for the LaTeX preamble.
+    #
+    #
+     'preamble': r'''
+        %%%add number to subsubsection 2=subsection, 3=subsubsection
+        %%% below subsubsection is not good idea.
+        %\setcounter{secnumdepth}{3}
+        %
+        %%%% Table of content upto 2=subsection, 3=subsubsection
+        \setcounter{tocdepth}{2}
+        \usepackage{amsmath,amsfonts,amssymb,amsthm}
+        \usepackage{graphicx}
+        
+        %%% reduce spaces for Table of contents, figures and tables
+        %%% it is used "\addtocontents{toc}{\vskip -1.2cm}" etc. in the document
+        \usepackage[notlot,nottoc,notlof]{}
+        
+        \usepackage{color}
+        \usepackage{transparent}
+        \usepackage{eso-pic}
+        \usepackage{lipsum}
+        
+        %\usepackage{footnotebackref} %%link at the footnote to go to the place of footnote in the text
+       
+        %% spacing between line
+        \usepackage{setspace}
+        %%%%\onehalfspacing
+        %%%%\doublespacing
+        \singlespacing
+        
+        %%%%%%%%%%% datetime
+        \usepackage{datetime}
+        
+        \newdateformat{MonthYearFormat}{%
+            \monthname[\THEMONTH], \THEYEAR} 
+      ''',
+
+     'maketitle': r'''
+        \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
+        
+        \begin{titlepage}
+            \centering
+            
+            \vspace*{40mm} %%% * is used to give space from top
+            \textbf{\Huge {Satellite Gap Filling Documentation}}\\[20pt]
+            
+            \vspace{20mm}
+            \begin{figure}[!h]
+                \centering
+                \includegraphics[scale=1]{TROPOS-Logo_ENG.png}
+            \end{figure}
+            \vspace{20mm}
+            
+            \Large {Nicolas Bayer}
+            
+            \vspace*{0mm}
+            \small  Last updated : \today
+        \end{titlepage}
+        
+        %\clearpage
+        \pagenumbering{roman}
+        %\tableofcontents
+        \pagenumbering{arabic}
+        ''',
+
+}
 latex_logo = './images/TROPOS-Logo_ENG.png'
 latex_toplevel_sectioning='chapter'
