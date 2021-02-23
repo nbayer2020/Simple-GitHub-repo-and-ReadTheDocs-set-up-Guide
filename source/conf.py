@@ -185,7 +185,7 @@ latex_elements = {
             \end{figure}
             \vspace{20mm}
             
-            \Large {Nicolas Bayer}
+            {\Large \@author \par }
             
             \vspace*{0mm}
             {\small  Generated : \today}
